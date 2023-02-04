@@ -42,6 +42,7 @@ class Product(models.Model):
     product_name = models.CharField(max_length=50, blank=False)
     product = models.FileField(upload_to='product',blank=False)
     seller = models.ForeignKey(User, on_delete=models.CASCADE)
+    image = models.ImageField(upload_to='product', blank=True)
     product_description = models.CharField(max_length=1000, blank=True)
     price = models.DecimalField(max_digits=10000, decimal_places=2)
     date = models.DateTimeField(auto_now_add=True)

@@ -5,7 +5,7 @@ import svg1 from "../assets/second.svg";
 import AuthContext from "../context/AuthContext";
 import { Link } from "react-router-dom";
 const Home = () => {
-    let {logout} = useContext(AuthContext)
+  let { logout } = useContext(AuthContext);
   return (
     <div>
       <div className="body font-AlbertSans">
@@ -18,7 +18,9 @@ const Home = () => {
               <a href="/s">About</a>
             </div>
             <div className="nav-links">
-              <a className="cursor-pointer" onClick={(e) => logout()}>Logout</a>
+              <a className="cursor-pointer" onClick={(e) => logout()}>
+                Logout
+              </a>
             </div>
             <div className="nav-links">
               <a href="/s">Contact Us</a>
@@ -31,11 +33,11 @@ const Home = () => {
         <div className="mainpage">
           <div className="main-page-text">Share/Sell your content easily!</div>
           <div className="get-started-btn">
-            <Link to="/products">
-                <button className="bookingsBtn">Get Started</button>
-            </Link>
+            <button className="bookingsBtn">Get Started</button>
 
-            <button className="bookingsBtn-login">Buy Products</button>
+            <Link to="/products">
+              <button className="bookingsBtn-login">Buy Products</button>
+            </Link>
           </div>
         </div>
       </div>
