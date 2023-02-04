@@ -1,0 +1,7 @@
+.mainBody {
+  height: 100vh;
+  background: #1fbeff;
+  background: -webkit-linear-gradient(top, #1fbeff, #ffcc42);
+  background: -moz-linear-gradient(top, #1fbeff, #ffcc42);
+  background: linear-gradient(to bottom, #1fbeff, #ffcc42);
+}
