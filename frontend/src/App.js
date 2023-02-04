@@ -6,6 +6,9 @@ import { PrivateRoute } from "./utils/PrivateRoute";
 import Signup from "./components/Signup";
 import { AuthProvider } from "./context/AuthContext";
 import Products from "./components/Products";
+import CheckoutForm from "./components/CheckoutForm";
+import Resources from "./components/Resources";
+import UploadProduct from "./components/UploadProduct";
 function App() {
   return (
     <Router>
@@ -18,6 +21,10 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/checkout" element={<CheckoutForm/>}/>
+            <Route path="/resources" element={<Resources/>}/>
+            <Route path="/upload" element={<UploadProduct/>}/>
+
           </Routes>
         </AuthProvider>
       </div>

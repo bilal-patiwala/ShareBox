@@ -131,7 +131,8 @@ export const AuthProvider = ({children}) => {
         user:user,
         loginUser:loginUser,
         logout:logout,
-        signupUser:signupUser
+        signupUser:signupUser,
+        authToken:authToken
     }
     return(
         <AuthContext.Provider value={contextData}>

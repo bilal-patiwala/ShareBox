@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import User, Product
+from .models import User, Product, Transaction
 from django.db import models
 from django.forms import Textarea
 from django.contrib.auth.admin import UserAdmin
@@ -28,3 +28,4 @@ class UserAdminConfig(UserAdmin):
 
 admin.site.register(User,UserAdminConfig)
 admin.site.register(Product)
+admin.site.register(Transaction)

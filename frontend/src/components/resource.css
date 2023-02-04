@@ -1,0 +1,47 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 27px;
+  font-family: "Albert Sans";
+  /* background-color: #1FBEFF; */
+}
+.body {
+  height: 100%;
+  background-color: #1fbeff;
+}
+.logo-name {
+  font-weight: 900;
+  font-size: 45px;
+  margin-left: 15px;
+}
+
+.main-nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
+
+.nav-links {
+  margin: 0px 20px;
+  font-weight: 500;
+}
+.nav-links:hover {
+  color: rgb(64, 64, 66);
+}
+
+.main-body {
+  background: #1fbeff;
+  background: -webkit-linear-gradient(top, #1fbeff, #ffcc42);
+  background: -moz-linear-gradient(top, #1fbeff, #ffcc42);
+  background: linear-gradient(to bottom, #1fbeff, #ffcc42);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: "Albert Sans";
+}
+
+.user-text {
+  margin: 0px 0px 5px 17px;
+}

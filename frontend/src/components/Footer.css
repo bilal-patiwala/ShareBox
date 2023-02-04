@@ -1,0 +1,65 @@
+.footer{
+    height: 250px;
+    font-family: 'Albert Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFCC42;
+    background: -webkit-linear-gradient(top, #FFCC42, #1FBEFF);
+    background: -moz-linear-gradient(top, #FFCC42, #1FBEFF);
+    background: linear-gradient(to bottom, #FFCC42, #1FBEFF);
+}
+
+.footer-left{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer-middle{
+    margin: 20px 0px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.newsletter-text{
+    font-size: 25px;
+    font-weight: 500;
+}
+.email{
+    border: 2px solid;
+    border-radius: 5px;
+    height: 35px;
+    width: 250px;
+}
+.email::placeholder{
+    padding-left: 5px;
+}
+.email-btn{
+    background: transparent;
+    font-family: 'Albert Sans';
+    font-size: 13px;
+    font-weight: 900;
+    color: black;
+    border: 2px black solid;
+    height: 35px;
+    border-radius: 12px;
+    width: 90px;
+    transition: 0.3s;
+    /* margin: 0px 20px; */
+}
+.email-btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.footer-logo{
+    height: 20px;
+    width: 20px;
+    margin:5px 30px;
+}
+
+.footer-right{
+    margin: 10px 0px;
+    padding: 0px 25px;
+}

@@ -50,4 +50,13 @@ class Product(models.Model):
     def __str__(self):
         return self.product_name + " and seller is: " + self.seller.username
 
+
+class Transaction(models.Model):
+    buyer = models.ForeignKey(User, on_delete=models.CASCADE, related_name="buyer")
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name="resource")
+    
+    amount_paid = models.BooleanField(default=False)
+    date = models.DateTimeField(auto_now_add=True)
+
+
     

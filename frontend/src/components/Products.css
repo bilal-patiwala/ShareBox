@@ -1,7 +1,86 @@
-.mainBody {
-  height: 100vh;
-  background: #1fbeff;
-  background: -webkit-linear-gradient(top, #1fbeff, #ffcc42);
-  background: -moz-linear-gradient(top, #1fbeff, #ffcc42);
-  background: linear-gradient(to bottom, #1fbeff, #ffcc42);
+.body{
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  width: 100%; height: 100%;
+  background: #1FBEFF;
+  background: -webkit-linear-gradient(top, #1FBEFF, #FFCC42);
+  background: -moz-linear-gradient(top, #1FBEFF, #FFCC42);
+  background: linear-gradient(to bottom, #1FBEFF, #FFCC42); 
+}
+
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 27px;
+  font-family: 'Albert Sans';
+}
+
+.logo-name{
+  font-weight: 900;
+  font-size: 45px;
+  margin-left: 15px;
+}
+
+.main-nav-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
+
+.nav-links{
+  margin: 0px 20px;
+  font-weight: 500;
+}
+.nav-links:hover{
+  color: rgb(64, 64, 66);
+}
+
+
+.navbar-search{
+  height: 52px;
+}
+.search-input{
+  margin: 15px 0px 0px 75px;
+  background: transparent;
+  border: 3px solid;
+  border-radius: 30px;
+  font-size: 20px;
+  padding-left: 15px;
+  width: 350px;
+  outline: none;
+}
+.search-input::placeholder{
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: rgb(71, 71, 71);
+}
+.search-logo{
+  height: 25px;
+  width: 25px;
+  margin: 22px 0px 0px 10px;
+}
+
+
+.body{
+  
+}
+.search-svg{
+  height: 500px;
+  width: 500px;
+  /* margin: 53px; */
+}
+.search-svg-btm-text{
+  font-family: 'Albert Sans';
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.buyBtn{
+  height: 36px;
+  font-family: 'Albert Sans';
+  background-color: #1FBEFF;
+  color: white;
+  border-radius: 10px;
+  padding: 0px 6px;
 }
