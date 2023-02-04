@@ -1,0 +1,24 @@
+.inputBox1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 240px;
+  border-radius: 16px;
+  margin-top: 60px;
+  height: 400px;
+  background-color: rgb(251, 236, 236);
+
+  /* width: 300px; */
+}
+.signInBtn {
+  color: white;
+  background-color: black;
+  height: 36px;
+  width: 140px;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: 1px solid black;
+}
+.signInBtn:hover {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
