@@ -42,6 +42,20 @@ python manage.py runserver
 npm start
 ```
 
+For adding products you have to manually add from database for this you have to run this command
+
+```
+python manage.py createsuperuser
+```
+
+After creating super user you can go to this url to access admin portal
+
+```
+http://127.0.0.1:8000/admin
+```
+
+for testing you can search the product :- python, c++
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
