@@ -24,12 +24,12 @@ const Home = () => {
     <div>
       <div className="body font-AlbertSans">
         <div className="main-nav">
-          <div className="logo-name">
+          <div className="pl-6 pt-4 logo-name">
             <Link to="/">
             <button>ShareBox</button>
             </Link>
           </div>
-          <div className="main-nav-links">
+          <div className="main-nav-links pr-6 pt-4">
             
             <div className="nav-links">
               <Link to="/">

@@ -1,6 +1,6 @@
 // import React from "react";
-import "./Login.css";
 import "./Signin.css";
+import "./Login.css";
 import React, { useContext, useState } from "react";
 import AuthContext from "../context/AuthContext";
 import svg from "../assets/first.svg";
@@ -20,26 +20,8 @@ const Signup = () => {
     }
   };
   return (
-    <div>
-      {/* <div className="body font-AlbertSans">
-        <div className="main-nav">
-          <div className="logo-name">
-            <a href="/s">Sharebox</a>
-          </div>
-          <div className="main-nav-links">
-            <div className="nav-links">
-              <a href="/s">About</a>
-            </div>
-            <div className="nav-links">
-              <a href="/s">Features</a>
-            </div>
-            <div className="nav-links">
-              <a href="/s">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
+ 
+    
       <div className="mainBody">
         <div className="grid justify-center items-center">
           <div className="loginDiv">
@@ -47,7 +29,7 @@ const Signup = () => {
               ShareBox Signin
             </div>
             <div className="inputBox1 flex justify-center font-AlbertSans">
-              <form className="mt-4" onSubmit={signupSubmit}>
+              <form className="mt-4" onSubmit={signupSubmit} style={{width:'70%', margin:'auto'}}>
                 <div>
                   <div className="py-2 px-2">
                     <label htmlFor="username" className="font-bold px-2">
@@ -136,36 +118,8 @@ const Signup = () => {
         </div>
       </div>
 
-      {/* <div className="detail flex flex-wrap justify-around">
-        <div className="inside-detail w-1/2 flex justify-center">
-          <img id="first" src={svg} alt="" />
-        </div>
-        <div className="inside-detail w-1/2 flex justify-center text-detail">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          nesciunt nulla nam ex saepe expedita cum, iusto quam officiis
-          perferendis soluta atque exercitationem excepturi fugit a laboriosam
-          suscipit sed vel sunt nemo repellendus corrupti accusamus! Tempora
-          doloremque esse deserunt laborum.
-        </div>
-      </div>
-      <div className="detail flex flex-wrap justify-around">
-        <div className="inside-detail w-1/2 flex justify-center text-detail">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          nesciunt nulla nam ex saepe expedita cum, iusto quam officiis
-          perferendis soluta atque exercitationem excepturi fugit a laboriosam
-          suscipit sed vel sunt nemo repellendus corrupti accusamus! Tempora
-          doloremque esse deserunt laborum.
-        </div>
-        <div className="inside-detail w-1/2 flex justify-center">
-          <img id="first" src={svg1} alt="" />
-        </div>
-      </div> */}
+     
 
-      {/* <Navbar />
-      <Mainpage />
-      <Details />
-      <Details2 /> */}
-    </div>
   );
 };
 
